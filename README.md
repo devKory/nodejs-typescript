@@ -30,7 +30,8 @@ This is a template useful for projects wanting to use TypeScript in Node.js with
 
 ### Scripts (npm run)
 
-- **build**: cleans dist folder and transpiles all TypeScript files in the project
-- **dev:tsc**: cleans dist folder, transpiles all TypeScript files, and then watches for changes
-- **prod**: cleans dist folder, transpiles all TypeScript files, and removes the tests folder from dist
-- **test**: cleans dist folder, transpiles all TypeScript files, and runs the JestJS testing framework
+- **build**: Cleans dist folder and transpiles all TypeScript files in the project
+- **dev**: Sets Node environment to development and then executes dist/app/index.js
+- **dev:tsc**: Cleans dist folder, transpiles all TypeScript files, and then watches for changes
+- **prod**: Sets Node environment to production, cleans dist folder, transpiles all TypeScript files, removes tests folder from dist, and executes dist/app/index.js
+- **test**: Cleans dist folder, transpiles all TypeScript files, and runs the JestJS testing framework
