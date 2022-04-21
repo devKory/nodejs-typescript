@@ -4,10 +4,10 @@ This is a template useful for projects wanting to use TypeScript in Node.js with
 
 ## Instructions
 
-- Run "npm install" to install all the dependencies
-- Run "npm run dev:tsc" to start the TypeScript compiler in watch mode
-- Run "npm run dev" to execute your application from index.js
-- Run "npm run test" to test your JavaScript files using Jest
+- Run "**npm install**" to install all the dependencies
+- Run "**npm run dev:tsc**" to start the TypeScript compiler in watch mode
+- Run "**npm run dev**" to execute your application from index.js
+- Run "**npm run test**" to test your JavaScript files using Jest
 
 *You may want to run "npm run dev:tsc" and "npm run dev" in separate terminal windows for easier development.*
 
