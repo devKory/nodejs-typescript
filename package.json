@@ -5,7 +5,7 @@
 	"main": "dist/app/index.js",
 	"scripts": {
 		"build": "rimraf dist && tsc",
-		"dev": "NODE_ENV=development node dist/app/index.js",
+		"dev": "NODE_ENV=development nodemon dist/app/index.js",
 		"predev:tsc": "npm run build",
 		"dev:tsc": "NODE_ENV=development tsc --watch",
 		"preprod": "npm run build && rimraf dist/tests",
@@ -25,6 +25,7 @@
 		"@tsconfig/node18": "^1.0.1",
 		"@types/jest": "^28.1.6",
 		"jest": "^28.1.3",
+		"nodemon": "^2.0.19",
 		"rimraf": "^3.0.2",
 		"typescript": "^4.7.4"
 	}
