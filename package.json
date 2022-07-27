@@ -22,10 +22,10 @@
 		"url": "https://github.com/KoryHoopes/nodejs-typescript/issues"
 	},
 	"devDependencies": {
-		"@tsconfig/node18": "^1.0.0",
-		"@types/jest": "^27.5.1",
-		"jest": "^28.1.0",
+		"@tsconfig/node18": "^1.0.1",
+		"@types/jest": "^28.1.6",
+		"jest": "^28.1.3",
 		"rimraf": "^3.0.2",
-		"typescript": "^4.6.4"
+		"typescript": "^4.7.4"
 	}
 }
